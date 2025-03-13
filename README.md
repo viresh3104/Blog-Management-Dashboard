@@ -1,6 +1,6 @@
 # Blog Dashboard
 
-A feature-rich Angular application for managing blog posts, built with Angular 19, Angular Material, RxJS, and TypeScript. This project demonstrates modern Angular development with standalone components, reactive programming, and a simulated CRUD API using a local JSON file and local storage for persistence.
+A feature-rich Angular application for managing blog posts, built with Angular 19, Angular Material, RxJS, and TypeScript. This project demonstrates modern Angular development with standalone components, reactive programming, and a simulated CRUD API using a local JSON file.
 ## Features
 - Blog List: Displays blogs in a Material table with search, sorting, and pagination.
 
@@ -12,16 +12,13 @@ A feature-rich Angular application for managing blog posts, built with Angular 1
 
 - Notifications: MatSnackBar messages for create/edit actions.
 
-- Persistence: Blogs stored in localStorage to survive page refreshes.
-
-
 ## Usage
 
 - List Page: View, search, sort, and paginate blogs. Click icons for View/Edit/Delete.
 
 - Add Blog: Click "Add Blog" to create a new post.
 
-- Edit Blog: Edit via the pencil icon, updates persist in localStorage.
+- Edit Blog: Edit via the pencil icon.
 
 - View Blog: Eye icon shows blog details.
 
