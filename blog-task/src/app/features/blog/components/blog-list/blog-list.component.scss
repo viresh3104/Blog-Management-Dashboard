@@ -3,7 +3,6 @@
   box-sizing: border-box;
 }
 
-/* Blog list container takes full viewport height */
 #blog-list {
   height: 100vh;
   display: flex;
@@ -11,13 +10,12 @@
   //   background-color: yellow;
 }
 
-/* Header styling - 10% height */
 .header-conatiner {
   height: 10%;
   display: flex;
-  justify-content: space-between; /* Creates space between left and right sections */
-  padding: 0 20px; /* Adds horizontal padding for spacing from edges */
-  align-items: center; /* Vertically centers content */
+  justify-content: space-between;
+  padding: 0 20px;
+  align-items: center;
   background-color: #bbbbbb;
 }
 
@@ -38,18 +36,13 @@
   height: calc(90% - 2em);
 }
 
-/* Table container using both grid and flex */
 .table-container {
   height: 100%;
-  display: grid; /* Using grid as base display */
-  grid-template-columns: repeat(
-    auto-fit,
-    minmax(200px, 1fr)
-  ); /* Responsive columns */
-  gap: 20px; /* Space between grid items */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
 }
 
-/* Optional: If you want flex behavior inside grid items */
 .table-container {
   display: flex;
   flex-direction: column;
