@@ -1,7 +1,7 @@
 <div class="page-div">
 
     <mat-card *ngIf="blog; else notFound" id="main-card">
-        <mat-icon (click)="goBack()" title="Go to home">arrow_left_alt</mat-icon>
+        <mat-icon (click)="goBack()" title="Go to home" style="cursor: pointer;">&#8592;</mat-icon>
 
         <mat-card-header>
             <mat-card-title>{{ blog.title }}</mat-card-title>
@@ -11,13 +11,13 @@
             <p>{{ blog.content }}</p>
         </mat-card-content>
         <mat-card-actions>
-            <button mat-button color="primary" (click)="goBack()">Back to List</button>
+            <button mat-button color="primary" (click)="goBack()">Go To Home</button>
         </mat-card-actions>
     </mat-card>
 
     <ng-template #notFound>
         <button mat-raised-button color="primary" type="submit" (click)="goBack()">
-            Back to List
+            Go To Home
         </button>
     </ng-template>
 </div>
